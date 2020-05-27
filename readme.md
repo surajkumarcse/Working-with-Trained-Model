@@ -8,13 +8,14 @@ Steps to use this model:
 3. Download this repo in your project folder.
 4. Create an environment in your terminal:
     python -m venv myvenv
-5. Download all the dependencies needed to run this repo
+5. now in other terminal run with same folder location:
+    LINUX/MAC: source myvenv/bin/activate
+    WINDOWS: myvenv\Scripts\activate
+    
+    
+6. Download all the dependencies needed to run this repo
     pip install -r requirements.txt
-6. now in other terminal run with same folder location:
-    source myvenv/bin/activate
-    jupyter notebook
-    This will open a new tab in your browser
-7. Open processingModel.ipynb in that jupyter notebook
+7. RUN: jupyter notebook & Open processingModel.ipynb in that jupyter notebook
 8. go to Cell > run all.
 9. I hope, at the end it will ouput 'Potato___healthy' because we have used 'potato__healthy.jpeg' as our input to this model in IN[15] of this jupyter notebook.
 10. You can also use your images by pasting the image in this folder and replacing the name of the image in IN[15] of previous step.
